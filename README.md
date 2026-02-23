@@ -40,3 +40,32 @@ It includes:
 ---
 
 ## 📂 Project Structure
+com.codexdrive.todo
+│
+├── controller
+├── service
+├── dao
+├── models
+└── helper
+
+
+---
+
+## 🧠 Key Concepts Learned
+
+- Difference between JPA and Spring JDBC
+- How JdbcTemplate works internally
+- RowMapper usage
+- Handling EmptyResultDataAccessException
+- Writing clean SQL queries
+- Batch processing in Spring JDBC
+
+---
+
+## ⚙ Database Configuration
+
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/todo_db
+spring.datasource.username=root
+spring.datasource.password=your_password
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
